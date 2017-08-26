@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="comagustinn251.httpsgithub.proyecto2.webview">
+
+    <Button
+        android:id="@+id/pp"
+        android:layout_width="376dp"
+        android:layout_height="50dp"
+
+        android:layout_above="@+id/cpadron"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/partidos_politicos" />
+
+    <Button
+        android:id="@+id/cpadron"
+        android:layout_width="380dp"
+        android:layout_height="53dp"
+        android:layout_alignLeft="@+id/wb"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/wb"
+        android:text="@string/consulte_su_padron_electoral"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="462dp" />
+
+    <WebView
+        android:id="@+id/wb"
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+    </WebView>
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Proyecto2</string>
+    <string name="informaci_n_sobre_las_paso">Información Sobre las PASO</string>
+    <string name="consulte_el_padron_electoral">Consulte el Padron Electoral</string>
+    <string name="button">Button</string>
+    <string name="button2">Button</string>
+    <string name="partidos_politicos">Partidos Politicos</string>
+    <string name="consulte_su_padron_electoral">Consulte su Padron Electoral</string>
+    <string name="title_activity_padron">padron</string>
+    <string name="button1">Button</string>
+    <string name="button3">Button</string>
+    <string name="partidos_politicos1">Partidos Politicos</string>
+    <string name="informaci_n_sobre_las_paso1">Informaciòn sobre las paso</string>
+    <string name="informacion_sobre_las_paso">INFORMACION SOBRE LAS PASO</string>
+</resources>
